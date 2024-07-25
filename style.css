@@ -42,3 +42,21 @@ span.animate{
         transform: scale(1); /* Return to normal size */
     }
 }
+
+
+article{
+    height:30vh;
+}
+
+
+.immagineRicetta{
+    height:100%;
+}
+
+h3{
+    height:10vh;
+}
+
+.link{
+    height:70%;
+}
