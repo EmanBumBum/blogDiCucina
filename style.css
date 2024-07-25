@@ -1,0 +1,44 @@
+.logo{
+    height:10vh;
+}
+
+.link-nav{
+    height:100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+main{
+    margin-top:70px;
+}
+
+header{
+    height:100vh;
+}
+
+.titolo{
+    height:100vh;
+}
+
+h1{
+    height:100%;
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+}
+
+span.animate{
+    display:inline-block;
+    animation:pulse 1s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Start at normal size */
+    }
+    50% {
+        transform: scale(2); /* Scale up to 120% */
+    }
+    100% {
+        transform: scale(1); /* Return to normal size */
+    }
+}
