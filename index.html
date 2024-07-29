@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="bg-dark text-primary-white container-fluid fixed-top">
@@ -14,7 +17,7 @@
                 <img class="logo" src="./logo.jpg" alt="logo">
             </div>
             <div class="col-9">
-                <ul class="row justify-content-between link-nav">
+                <ul class="row justify-content-between flex-wrap link-nav">
                     <li> <a class="text-white" href="./vegano.jpeg" target="" > ricette vegetariane </a> </li>
                     <li> <a class="text-white" href="./vegetariano.jpeg" target="" > ricette vegetariane </a> </li>
                     <li> <a class="text-white" href="./pesce.jpeg" target="" > ricette di pesce </a> </li>
@@ -32,146 +35,80 @@
                 
             </div>
         </header>
-        <h2> I consigli dello chef</h2>
+        <h2 class="text-center"> I consigli dello chef </h2>
         <section class="container-fluid">
-            <div class="row d-flex">
-            <article class="row col-4">
-                <h3> Smoothie di pesce e liquirizia </h3>
-                 <a class="bg-danger link" href="https://ricette.giallozafferano.it/Smoothie-allo-yogurt.html" target="_blank"> <img class="immagineRicetta" src="./smoothie.jpeg" alt="tofu"> </a>
-                <div class="row col-4">
-                 <h4>Ingredienti:</h4>
+            <div class="row d-flex justify-content-between giornale">
+            <article class="row d-flex col-4 border">
+                <h3 class="text-center justify-content-center"> Smoothie di pesce e liquirizia </h3>
+                <a class="link row col-12 justify-content-center" href="https://ricette.giallozafferano.it/Smoothie-allo-yogurt.html" target="_blank"> <img class="immagineRicetta" src="./smoothie.jpeg" alt="tofu"> </a>
+                <div class="ricetta">
+                 <h4 class="text-center">Ingredienti:</h4>
                 <ul>
-                    <li>
-                        200 g di filetti di acciughe sott'olio
-                    </li>
-                    <li>
-                        250 ml di succo di carota
-                    </li>
-                    <li>
-                        100 ml di latte di mandorla
-                    </li>
-                    <li>
-                        1 cucchiaio di sciroppo di liquirizia
-                    </li>
-                    <li>
-                        1 banana matura
-                    </li>
-                    <li>
-                        Ghiaccio q.b.
-                    </li>
+                    <li> 200 g di filetti di acciughe sott'olio </li>
+                    <li> 250 ml di succo di carota </li>
+                    <li> 100 ml di latte di mandorla </li>
+                    <li> 1 cucchiaio di sciroppo di liquirizia </li>
+                    <li> 1 banana matura </li>
+                    <li> Ghiaccio q.b. </li>
                 </ul>
-                <h4>
-                    Preparazione:
-                </h4>
+                <h4> Preparazione: </h4>
                 <ol>
-                    <li>
-                        Frullare insieme i filetti di acciughe, il succo di carota, il latte di mandorla e il ghiaccio.
-                    </li>
-                    <li>
-                        Aggiungere la banana e il cucchiaio di sciroppo di liquirizia.
-                    </li>
-                    <li>
-                        Frullare nuovamente fino a ottenere una consistenza omogenea.
-                    </li>
-                    <li>
-                        Servire in un bicchiere alto con una cannuccia.
-                    </li>
+                    <li>Frullare insieme i filetti di acciughe, il succo di carota, il latte di mandorla e il ghiaccio.</li>
+                    <li> Aggiungere la banana e il cucchiaio di sciroppo di liquirizia. </li>
+                    <li> Frullare nuovamente fino a ottenere una consistenza omogenea. </li>
+                    <li> Servire in un bicchiere alto con una cannuccia </li>
                 </ol>
-            </div>
+                </div>
             </article>
-        <article class="row col-4">
-            <h3 row col-4> Spaghetti al Caffè con Uova di Pesce e Marmellata di Fragole </h3>
-            <div row col-4> <a href="https://ricette.giallozafferano.it/Spaghetti-all-Amatriciana.html" target="_blank"> <img class="immagineRicetta" src="./spaghetti.jpeg" alt="tofu"> </a> </div>
-            <h4>
-                Ingredienti:
-            </h4>
+        <article class="row d-flex col-4 border">
+            <h3 class="text-center"> Spaghetti al Caffè con Uova di Pesce e Marmellata di Fragole </h3>
+            <a class="link row col-12 justify-content-center" href="https://ricette.giallozafferano.it/Spaghetti-all-Amatriciana.html" target="_blank"> <img class="immagineRicetta" src="./spaghetti.jpeg" alt="tofu"> </a>
+            <div class="col-12">
+            <h4 class="text-center"> Ingredienti: </h4>
             <ul>
-                <li>
-                    200 g di spaghetti
-                </li>
-                <li>
-                    2 tazze di caffè forte
-                </li>
-                <li>
-                    50 g di uova di pesce (caviale o altro tipo)
-                </li>
-                <li>
-                    4 cucchiai di marmellata di fragole
-                </li>
-                <li>
-                    1 cucchiaio di olio d'oliva
-                </li>
+                <li> 200 g di spaghetti </li>
+                <li> 2 tazze di caffè forte </li>
+                <li> 50 g di uova di pesce (caviale o altro tipo) </li>
+                <li> 4 cucchiai di marmellata di fragole </li>
+                <li> 1 cucchiaio di olio d'oliva </li>
             </ul>
-            <h4>
+            <h4 class="text-center">
                 Preparazione:
             </h4>
             <ol>
-                <li>
-                    Cuocere gli spaghetti in acqua bollente salata per il tempo indicato sulla confezione.
-                </li>
-                <li>
-                    Scolare gli spaghetti e mescolarli con il caffè forte.
-                </li>
-                <li>
-                    Aggiungere l'olio d'oliva e mescolare bene.
-                </li>
-                <li>
-                    Disporre gli spaghetti al caffè su un piatto.
-                </li>
-                <li>
-                    Distribuire le uova di pesce sopra gli spaghetti.
-                </li>
-                <li>
-                    Aggiungere qualche cucchiaiata di marmellata di fragole qua e là.
-                </li>
-                <li>
-                    Servire immediatamente.
-                </li>
+                <li>  Cuocere gli spaghetti in acqua bollente salata per il tempo indicato sulla confezione. </li>
+                <li> Scolare gli spaghetti e mescolarli con il caffè forte. </li>
+                <li> Aggiungere l'olio d'oliva e mescolare bene. </li>
+                <li> Disporre gli spaghetti al caffè su un piatto. </li>
+                <li> Distribuire le uova di pesce sopra gli spaghetti. </li>
+                <li> Aggiungere qualche cucchiaiata di marmellata di fragole qua e là. </li>
+                <li> Servire immediatamente. </li>
             </ol>
+        </div>
         </article>
 
-        <article class="row col-4">
-            <h3 row col-4> Tofu al Cioccolato con Salsa di Senape </h3>
-            <div row col-4> <a href="https://ricette.giallozafferano.it/Bowl-di-anguria-e-tofu.html" target="_blank"> <img class="immagineRicetta" src="./tofu.jpeg" alt="tofu"> </a> </div>
-            <h4>Ingredienti:</h4>
+        <article class="row d-flex col-4 border">
+            <h3 class="text-center"> Tofu al Cioccolato con Salsa di Senape </h3>
+            <a class="link row col-12 justify-content-center" href="https://ricette.giallozafferano.it/Bowl-di-anguria-e-tofu.html" target="_blank"> <img class="immagineRicetta" src="./tofu.jpeg" alt="tofu"> </a>
+            <div class="col-12">
+            <h4 class="text-center">Ingredienti:</h4>
             
             <ul>
-                <li>
-                    300 g di tofu
-                </li>
-                <li>
-                    100 g di cioccolato fondente
-                </li>
-                <li>
-                    3 cucchiai di senape di Digione
-                </li>
-                <li>
-                    1 cucchiaio di salsa di soia
-                </li>
-                <li>
-                    Semi di sesamo per guarnire
-                </li>
+                <li> 300 g di tofu</li>
+                <li> 100 g di cioccolato fondente </li>
+                <li> 3 cucchiai di senape di Digione </li>
+                <li> 1 cucchiaio di salsa di soia </li>
+                <li> Semi di sesamo per guarnire </li>
             </ul>
-            <h4>
-                Preparazione:
-            </h4>
+            <h4 class="text-center"> Preparazione: </h4>
             <ol>
-                <li>
-                    Sciogliere il cioccolato fondente a bagnomaria.
-                </li>
-                <li>
-                    Tagliare il tofu a fette spesse e grigliarlo per 2-3 minuti per lato.
-                </li>
-                <li>
-                    In una ciotola, mescolare la senape di Digione con la salsa di soia.
-                </li>
-                <li>
-                    Versare la salsa di senape sul tofu al cioccolato.
-                </li>
-                <li>
-                    Guarnire con semi di sesamo e servire caldo.
-                </li>
+                <li> Sciogliere il cioccolato fondente a bagnomaria. </li>
+                <li> Tagliare il tofu a fette spesse e grigliarlo per 2-3 minuti per lato. </li>
+                <li> In una ciotola, mescolare la senape di Digione con la salsa di soia. </li>
+                <li> Versare la salsa di senape sul tofu al cioccolato. </li>
+                <li> Guarnire con semi di sesamo e servire caldo. </li>
             </ol>
+        </div>
         </article>
     </div>
         </section>
@@ -180,9 +117,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<footer>
-    <p>Non si accettano reclami. Grazie. Ciao</p>
+<footer class="container-fluid fixed-bottom bg-dark text-white">
+    <p class="row col-12 justify-content-center">Non si accettano reclami. Grazie. Ciao</p>
 </footer>
 </html>
-
-
